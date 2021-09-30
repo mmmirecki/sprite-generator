@@ -1,0 +1,26 @@
+.boardCanvas{
+    width:25px;
+    height:25px;
+    border:solid black 1px;
+    float:left;
+    margin:1px;
+}
+
+.sheetCanvas{
+    width:25px;
+    height:25px;
+    border:solid black 1px;
+    float:left;
+    margin:1px;
+}
+
+.boardCanvas:nth-child(10n+1){
+    clear:both;
+}
+#items{
+    width:470px;
+    height: auto;
+}
+#sheet{
+    visibility:hidden ;
+}
